@@ -1,0 +1,175 @@
+.signupForm {
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  background-color: #e7ebf2;
+  font-size: 12px;
+}
+
+.signupText .bigText {
+  color: #333;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 120%;
+  margin: 0;
+}
+
+.signupText .description {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #333;
+  line-height: 23.94px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.form {
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+.fname {
+  width: 30%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #bdc7d8;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+.lname {
+  width: 30%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #bdc7d8;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+.emailSp,
+.remail,
+.passwordSp,
+#month,
+#day,
+#year {
+  width: 62%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #bdc7d8;
+}
+
+.birthday {
+  font-size: 18px;
+  color: #333;
+  font-weight: normal;
+  margin-top: 10px;
+  line-height: 1.28;
+}
+
+.bdayInput {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+.select {
+  height: 30px;
+  font-size: 13px;
+  padding: 5px;
+  margin: 2px 0 0 0;
+  border: 1px solid #bdc7d8;
+}
+
+.selectMonth {
+  height: 30px;
+  font-size: 13px;
+  padding: 5px;
+  margin: 2px 6px 0 0;
+  border: 1px solid #bdc7d8;
+}
+
+.selectDay {
+  height: 30px;
+  font-size: 13px;
+  padding: 5px;
+  margin: 2px 6px 0 0;
+  border: 1px solid #bdc7d8;
+}
+
+.selectYear {
+  height: 30px;
+  font-size: 13px;
+  padding: 5px;
+  margin: 2px 6px 0 0;
+  border: 1px solid #bdc7d8;
+}
+
+.why {
+  width: 160px;
+}
+
+.sex {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.fem,
+.male {
+  color: #333;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.terms {
+  width: 316px;
+  font-size: 11px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.btnSu {
+  margin: 10px auto;
+  background-color: #69a74e;
+  color: white;
+  border: 1px solid;
+  letter-spacing: 1px;
+  cursor: pointer;
+  min-width: 194px;
+  padding: 7px 20px;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 126%;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-radius: 5px;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+}
+
+.hr {
+  margin: 15px 0px 5px 0;
+}
+
+.create {
+  margin: auto;
+  margin-bottom: 40px;
+  font-size: 13px;
+  padding-top: 15px;
+  text-align: left;
+  font-weight: bold;
+  color: #666;
+}
+
+.create a {
+  text-decoration: none;
+}

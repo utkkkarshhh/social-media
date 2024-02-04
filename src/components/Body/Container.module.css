@@ -1,0 +1,13 @@
+.container {
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  color: #0e385f;
+  background-color: #e7ebf2;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+}
+
+.mainBody {
+  background-color: #e7ebf2;
+}

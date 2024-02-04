@@ -1,0 +1,82 @@
+/* Header.css */
+body {
+    margin: 0px 0px;
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+}
+
+.navbar {
+    height: 82px;
+    margin: auto;
+    background-color: #3B599A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar .logo .name {
+    margin: auto;
+    margin-top: 17px;
+    font-size: 45px;
+    padding: 12px 0px 10px 20px;
+    color: #fff;
+    font-family: facebook;
+}
+
+.loginForm {
+    display: flex;
+    gap: 17px;
+    padding-right: 20px;
+    justify-content: flex-end;
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    font-size: 11px;
+}
+
+.loginForm .email,
+.loginForm .password {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm input[type="text"],
+.loginForm input[type="password"] {
+    margin: 5px 0px;
+    width: 142px;
+}
+
+/* Checkbox input */
+.loginForm .loggedin {
+    margin: 0px 0px;
+    width: 13px;
+    height: 13px;
+}
+
+.loginBtn {
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+.labelBottom {
+    color: #98a9ca;
+}
+
+.lgBtn {
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    background-color: #667DAF;
+    color: white;
+    padding: 2px 6px 2px;
+    min-height: 16px !important;
+    line-height: 13px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 11px;
+    cursor: pointer;
+    vertical-align: top;
+    white-space: no-wrap;
+    border: 1px solid #999;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+    border-color: #29447e #29447e #1a356e;
+}
+

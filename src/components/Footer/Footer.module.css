@@ -1,0 +1,34 @@
+/* styles.css */
+.footer {
+  display: flex;
+  color: black;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.languages {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.languages li {
+  font-size: 11px;
+  display: flex;
+  list-style: none;
+  padding-right: 9px;
+}
+
+.credits {
+  text-align: center;
+  margin-top: 15px;
+  color: black;
+  width: auto;
+  margin: auto;
+  font-size: 14px;
+}
+
+.credits a {
+  text-decoration: underline;
+  color: black;
+}

@@ -1,0 +1,22 @@
+.imageSection {
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+  color: #0e385f;
+  background-color: #e7ebf2;
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.imageSectionText {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  width: 450px;
+  line-height: 29px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
